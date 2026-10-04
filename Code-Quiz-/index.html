@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contect="width=device, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+   
+   <div class="app>"
+
+    <!-- START SCREEN -->
+    <section id="startScreen" class="screen active">
+        <h1>CodeQuiz</h1>
+        <p class="subtitle">Test and sharpen your HTML,CSS & JavaScript knowledge</p>
+
+        <div class="option-group">
+            <label>Category</label>
+            <div class="pill active" id="categoryGroup">
+                <button class="pill active" date-value="All">All</button>
+                <button class="pill" data-value="HTML">HTML</button>
+                <button class="pill" date-value="CSS">CSS</button>
+                <button class="pill" date-value="JavaScript">JavaScript</button>
+  </div>
+</div> 
+
+<div class="option-group">
+    <label>Difficulty</label>
+<div class="pill-group" id="difficulty">
+   <button class="pill active" data-value="all">All</button>
+   <button class="pill" data-value="beginner">Beginner</button>
+   <button class="pill" data-value="advanced">Advanced</button>
+  </div>
+</div>
+
+<div class="option-group">
+    <label>Number of Questions</label>
+    <div class="pill-group" id="countGroup">
+        <button class="pill" data-value="5">5</button>
+        <button class="pill active" data-value="10">10</button>
+        <button class="pill" data-value="15">15</button>
+     </div>
+</div>
+
+<button id="startBtn" class="primary-btn">Start Quiz</button>
+
+<div id="bestScoreBox" class="best-score"></div>
+</section>
+
+<!-- QUIZ SCREEN -->
+<section id="quizScreen" class="screen">
+    <div class="quiz-top">
+        <div class="progress-bar"><div id="progressFill" class="progress-fill"></div></div>
+        <div class="quiz-meta">
+            <span id="questionCounter">Question 1/10</span>
+            <span id="streakDisplay">🔥 0</span>
+            <span id="timerDisplay">⏱️ 20</span>
+        </div>
+    </div>
+
+<p id="questionCategory" class="question-category"></p>
+<h2 id="questionText" class="question-text"></h2>
+
+<div id="optionsContainer" class="options-container"></div>
+</section>
+
+<!-- RESULT SCREEN -->
+  <section id="resultScreen" class="screen">
+    <h1 id="resultEmoji" class="result-emoji"></h1>
+    <h2 id="resultScore" class="result-score"></h2>
+    <p id="resultAccuracy" class="result-sub"></p>
+    <p id="resultBest" class="result-sud"></p>
+
+    <div id="categoryBreakdown" class="breakdown"></div>
+    
+    <div class="result-buttons">
+        <button id="playAgainBtn" class="primary-btn">Play Again</button>
+        <button id="changeSettingsBtn" class="secondary-btn">Change Setting</button>
+    </div>
+  </section>
+
+</div>
+
+<script src="questions.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

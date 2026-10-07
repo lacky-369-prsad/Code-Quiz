@@ -87,7 +87,7 @@ playAgainBtn.addEventListener('click', startQuiz);
 changeSettingsBtn.addEventListener('click', () => showScreen(startScreen));
 
 function startQuiz() {
-    let pool = QUESTIONS.filter(q => {
+    let pool = QUESTION.filter(q => {
         const catMatch = selectedCategory === 'All' || q.category === selectedCategory;
         const diffMatch = selectedDifficulty === 'all' || q.difficulty === selectedDifficulty;
         return catMatch && diffMatch;
@@ -132,6 +132,7 @@ function loadQuestion() {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
         btn.textContent = opt;
+        btn.dataset.index = originalIndex;
         btn.addEventListener('click', () => selectAnswer(originalIndex, q));
         optionsContainer.appendChild(btn);
     });
@@ -159,16 +160,15 @@ function selectAnswer(chosenIdx, question) {
     allBtns.forEach(b => b.classList.add('disabled'));
 
     const isCorrect = chosenIdx === question.answer;
-    const correctText = question.options[question.answer];
-    const chosenText = chosenIdx !== -1 ? question.options[chosenIdx] : null;
 
     allBtns.forEach(b => {
-        if (b.textContent === correctText) {
+        const idx = parseInt(b.dataset.index);
+        if (idx === question.answer) {
             b.classList.add('correct');
-        } else if (chosenText !== null && b.textContent === chosenText && !isCorrect) {
-            b.classList.add('wrong');
+        } else if (idx === chosenIdx) {
+           b.classList.add('wrong');
         }
-    });
+ });
 
     if (!breakdown[question.category]) {
         breakdown[question.category] = { correct: 0, total: 0 };

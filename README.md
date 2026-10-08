@@ -8,7 +8,7 @@
 Demo](https://img.shields.io/badge/Live-Demo-6A5ACD?style=for-the-badge)](https://lacky-369-prsad.github.io/Code-Quiz/)
 [![GitHub](https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/lacky-369-prsad/Code-Quiz)
 
-**Live Demo:** https://lacky-369-prsad.github.io/Code-Quiz/\
+**Live Demo:** https://lacky-369-prsad.github.io/Code-Quiz/
 **Source Code:** https://github.com/lacky-369-prsad/Code-Quiz
 
 ------------------------------------------------------------------------

@@ -47,10 +47,17 @@ Demo](https://img.shields.io/badge/Live-Demo-6A5ACD?style=for-the-badge)](https:
 ------------------------------------------------------------------------
 
 ## Overview
+## Preview
+
+### Start Screen
+
+<img width="180" height="378" alt="1000052908" src="https://github.com/user-attachments/assets/43eaeda2-8b7e-46e5-9da4-b663a76943f6" />
+
+
 
 **CodeQuiz** is a browser-based coding quiz designed around a simple
 problem: learning syntax and concepts is not enough if you do not
-regularly revise them.
+regularly revise theme. 
 
 The project lets a user choose:
 
@@ -308,6 +315,12 @@ When **Start Quiz** is clicked, `startQuiz()`:
 
 ### Step 3 --- Load a Question
 
+### Quiz Screen
+
+ <img width="180" height="378" alt="1000052911" src="https://github.com/user-attachments/assets/fab0c127-c0c2-46d0-86a7-0131198ce406" />
+
+
+
 `loadQuestion()`:
 
 1.  Stops any previous timer.
@@ -465,6 +478,12 @@ The displayed quiz score is a separate points-based value.
 ------------------------------------------------------------------------
 
 ## Result Screen
+
+## Result Screen
+
+<img width="180" height="378" alt="1000052905" src="https://github.com/user-attachments/assets/63db47c7-2013-4deb-85c4-4cc0b5dc5319" />
+
+
 
 The result screen summarizes the completed attempt.
 

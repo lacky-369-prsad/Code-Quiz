@@ -1,6 +1,13 @@
+[![Live
+Demo](https://img.shields.io/badge/Live-Demo-6A5ACD?style=for-the-badge)](https://lacky-369-prsad.github.io/Code-Quiz/)
+[![GitHub](https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/lacky-369-prsad/Code-Quiz)
+
 # CodeQuiz
 
 CodeQuiz is a small quiz website I made for students and people who are learning coding. You can practise HTML, CSS and JavaScript questions and check how much you remember.
+<img width="190" height="378" alt="1000052908" src="https://github.com/user-attachments/assets/b05ef5c3-73cc-4401-a19e-8ba9a0e134fc" />
+
+
 
 **Live website:** https://lacky-369-prsad.github.io/Code-Quiz/  
 **GitHub repository:** https://github.com/lacky-369-prsad/Code-Quiz
@@ -66,6 +73,9 @@ I also had spelling mistakes in some variable names and values. A few of these s
 Getting the website online took some work as well. At first, GitHub Pages showed a 404 because the files were inside an extra folder. I moved the files to the right place and deployed the site again. While using GitHub, I also ran into commit and push errors and had to work through them.
 
 These bugs took time, but fixing them helped me understand that small mistakes can stop a whole feature from working.
+<img width="190" height="390" alt="1000052926" src="https://github.com/user-attachments/assets/d8981886-bbc4-446c-9297-9c424e999f98" />
+
+
 
 ## How I tested it
 
